@@ -1,0 +1,52 @@
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 43px;
+    }
+}
+
+.logo {
+
+    &__link {
+    }
+
+    &__img {
+    }
+}
+.menu {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        
+    }
+    &__item + &__item {
+        margin-left: 48px;
+    }
+
+    &__link {
+        color: white;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24/16 * 100%;
+        &_active {
+            color: #F7A501;
+        }
+    }
+}
+
+@media screen and (max-width: 376px){
+    .menu {
+        display: none;
+    }
+    .header {
+        &__inner {
+            margin-bottom: 23px;
+        }
+    }
+}

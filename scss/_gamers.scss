@@ -1,0 +1,40 @@
+.gamers {
+
+    &__inner {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 100px;
+        margin-bottom: 24px;
+    }
+
+    &__content {
+        max-width: 450px;
+        margin-right: 105px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60/48 * 100%;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28/16 * 100%;
+        color: #ADB0B6;
+        text-align: justify;
+    }
+
+    &__img {
+        img {
+            max-width: 100%;
+        }
+    }
+}

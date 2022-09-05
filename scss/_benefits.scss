@@ -1,0 +1,56 @@
+.benefits {
+
+    &__inner {
+        margin-bottom: 127px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 39/26 * 100%;
+        color: #F9F9F9;
+        margin-bottom: 65px;
+        padding-left: 10px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__item {
+        background: #2C353D;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        max-width: 590px;
+        min-height: 226px;
+    }
+
+    &__subtitle {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30/20 * 100%;
+        color: #F9F9F9;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24/14 * 100%;
+        color: #ADB0B6;
+        text-align: justify;
+    }
+}
+
+
+

@@ -1,0 +1,58 @@
+.buy-tokens {
+    @media screen and (max-width: 376px){
+        &__inner {
+            flex-direction: column;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 51px;
+    }
+
+    &__column {
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 86/72 * 100%;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30/18 * 100%;
+        margin-bottom: 40px;
+        max-width: 450px;
+        text-align: justify;
+    }
+
+    &__btns {
+    }
+
+    &__here {
+        background: #F7A501;
+        border-radius: 16px;
+        margin-right: 10px;
+    }
+
+    &__play {
+        border: 1px solid #F9F9F9;
+        border-radius: 16px;
+        &::before {
+            content:url(/img/icons/play.svg);
+            margin: 22px 10px 22px 0;
+        }
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+}
